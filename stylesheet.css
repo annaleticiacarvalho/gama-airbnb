@@ -1,0 +1,127 @@
+html {
+    background-color: white;
+  }
+
+body {
+    background-color: white;
+        font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        padding: 60px;
+        font-size: 13px;
+  }
+
+  a:link,a:visited {
+      color: #424242;
+      background-color: #FFFFFF;
+      text-decoration: none;
+      target-new: none;
+     }
+     a:hover {
+      color: #808080;
+      background-color: #FFFFFF;
+      text-decoration: underline;
+      target-new: none;
+{
+
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+  .navbar {
+    background-color: white;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  #btn-cadastro {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+    align-items: center;
+    border-radius: 21px;
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+    border-color: #ebebeb;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+  }
+  
+  #btn-cadastro:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  }
+  
+  #btn-cadastro p {
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+  }
+
+  
+  .col-cards {
+    margin-bottom: 2rem;
+  }
+  @@ -40,10 +75,23 @@
+    margin-right: 0;
+  }
+  
+  #div-cards-group .card {
+    border-radius: 21px;
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18);
+    border-color: #ebebeb;
+    min-height: 100%;
+  }
+  
+  #div-cards-group .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #div-cards-group .card-img-top {
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+  }
+  
+  .card-body {
+    /* height: 8rem; */
+  }
+  @@ -52,13 +100,23 @@
+    height: 13rem;
+  }
+  
+  .card-subtitle {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .text-value-day {
+    margin-bottom: auto;
+    font-weight: bold;
+  }
+  
+  .text-prices {
+    float: right;
+  }
+  
+  #div-row-search {
+    margin: 2rem 1rem;
+    margin: 7.5rem 1rem 2rem;
+    justify-content: center;
+  }
+  
+  @@ -96,6 +154,11 @@
+    cursor: pointer;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  footer {
+    text-align: center;
+  }

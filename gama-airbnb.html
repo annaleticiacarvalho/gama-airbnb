@@ -8,15 +8,105 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!--Folha de estilos-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+
+    <title>Airbnb</title>
+   
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+        <nav class="navbar border-bottom fixed-top navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="imagens/logo.jpg" width="35%">
+            </a>
+            <div class="my-2 my-lg-0">
+                <a id="btn-cadastro" href="#" target="_blank">
+                    <p>Cadastre-se</p>
+                </a>
+            </div>
+        </nav>
+    </div>
+    
+    <br>
+    <br>
+
+        <br>
+        <div class="row">
+            <div class="col-md-1">
+                <img src="imagens/iconesaibamais.gif" width="50%">
+                </div>
+            <div class="col-md-11">
+                Verifique as restrições de viagem antes de fazer uma reserva.
+                A saúde e a segurança das nossas comunidades vêm sempre em primeiro lugar. 
+                Siga as orientações do governo e viaje apenas se for essencial. <a href="https://www.airbnb.com.br/help/topic/1418/government-travel-restrictions-and-advisories">Saiba mais</a>
+            </div>
+        </div>
+            <div id="cards"></div>
+        <script src="index.js"></script>
+    
+        <hr/>
+        <div class="row">
+            
+           
+            <div class="col-md-3">
+                <p><strong>SOBRE</strong></p>
+                <p><a href="https://www.airbnb.com.br/diversity">Diversidade e pertencimento</a></p>
+                <p><a href="https://www.airbnb.com.br/accessibility">Acessibilidade</a></p>
+                <p><a href="https://www.airbnb.com.br/trust">Confiança e segurança</a></p>
+                <p><a href="https://www.airbnbcitizen.com/?utm_source=airbnb&utm_medium=footer&utm_campaign=product">AirBnb Citizen</a></p>
+                <p><a href="https://www.airbnb.com.br/press/news">Newsroom</a></p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>COMUNIDADE</strong></p>
+                <p><a href="https://www.airbnb.com.br/magazine">Airbnb Magazine</a></p>  
+                <p><a href="https://www.airbnb.com.br/work?s=footer">Airbnb for Work</a></p>
+                <p><a href="https://www.airbnb.com.br/invite?r=6">Convide Amigos</a></p>
+                <p><a href="https://www.airbnb.com.br/careers">Carreiras</a></p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>ANFITRIÃO</strong></p>
+                <p><a href="https://www.airbnb.com.br/host/homes?from_footer=1">Hospede em sua acomodação</a></p>  
+                <p><a href="https://www.airbnb.com.br/host/experiences?from_footer=1">Ofereça uma experiência</a></p>
+                <p><a href="https://www.airbnb.com.br/help/responsible-hosting">Hospedagem responsável</a></p>
+                <p><a href="https://www.airbnb.com.br/openhomes?from_footer=1">OpenHomes</a></p>
+                <p><a href="https://www.airbnb.com.br/d/olympics">Olimpíadas</a></p>
+                <p><a href="https://www.airbnb.com.br/resources">Central de Recursos</a></p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>ATENDIMENTO</strong></p>
+                <p><a href="https://www.airbnb.com.br/help?from=footer">Central de Ajuda</a></p>  
+                <p><a href="https://www.airbnb.com.br/neighbors">Atendimento ao Bairro</a></p>
+            </div>
+        </div>
+        <br>
+        <hr/>
+        <div class="row">
+            <div class="col-md-7">
+                © 2020 Airbnb, Inc. All rights reserved · <a href="https://www.airbnb.com.br/terms/privacy_policy">Privacidade</a> 
+                · <a href="https://www.airbnb.com.br/terms">Termos</a> · <a href="https://www.airbnb.com.br/sitemaps/v2">Mapa do site</a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://www.airbnb.com.br/account-settings/language"><strong>🌐 Português (BR)</a></strong>
+            </div>
+            <div class="col-md-1">
+                <a href="https://www.airbnb.com.br/account-settings/currency"><strong> R$ BRL</a></strong>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    
+    <!-- JS-->
+    <script src="./script.js"></script>
+  
+    </body>
 </html>
